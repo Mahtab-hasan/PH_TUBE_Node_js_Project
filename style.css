@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .parentimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .btnsort,
+  .btnsort2,
+  .btnsort3 {
+    padding: 11px 44px;
+    background-color: #d3d3d3;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.4s, color 0.3s;
+  }
+  
+  .btnsort:hover,
+  .btnsort2:hover,
+  .btnsort3:hover {
+    background-color: #f3213d;
+    color: #fff;
+  }
+  .btnsort2 a{
+    color: #000;
+    transition: background-color 0.4s, color 0.3s;
+  }
+  .btnsort2 a:hover{
+    color: #fff;
+  }
+  
+  .btnsection {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .video {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: tranform 0.3s;
+  }
+  .video:hover {
+    transform: scale(1.05);
+  }
+  
+  .thummailimg {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 160px;
+    margin-bottom: 10px;
+  }
+  
+  .video h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  video p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .imageParent {
+    position: relative;
+  }
+  
+  .timeandmnt {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    background-color: #1f1f1f;
+    color: #fff !important;
+    font-size: 14px;
+  }
+  
+  .verifiedname {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .no-data-container {
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .authordivparent {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .authorIMG {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px !important;
+  }
+  
+  .fa-solid {
+    color: rgb(0, 119, 255);
+  }
+  
+  .blogh1 {
+    text-align: center;
+    padding-bottom: 28px;
+    color: #fff;
+    font-family: fangsong;
+  }
+  .parentclass {
+    padding-top: 20px;
+  }
+  
+  .body_second {
+    background-image: url(icon/2681127067.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .accordion_button {
+    color: #d9d9d9;
+    background: #221d1dc4;
+    font-size: 21px;
+    padding: 14px 49% 14px 68px;
+    border-radius: 31px;
+    border: none;
+  }
+  .accordion_button2 {
+    color: #d9d9d9;
+    background: #221d1dc4;
+    font-size: 19px;
+    padding: 14px 46% 14px 68px;
+    border-radius: 31px;
+    border: none;
+  }
+  
+  .accordion-body {
+    color: #fff;
+  }
+  
+  /* media css */
+  
+  @media only screen and (max-width: 765px) {
+    .btnsort,
+    .btnsort2,
+    .btnsort3 {
+      padding: 10px 12px;
+    }
+    .btnsection{
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .video{
+      width: 100%;
+      margin: 10px 0;
+    }
+  .thummailimg{
+    max-height: 200px;
+    width: 100%;
+  }
+  .video h3{
+  
+      font-size: 1em;
+  }
+  .timeandmnt{
+      bottom: 5%;
+      font-size: 12px;
+  }
+  .no-data-container{
+      margin-top: 10%;
+  }
+  .authordivparent{
+         
+    gap: 8px;
+  }
+  .authorIMG{
+    width: 35px;
+    height: 35px;
+    border-radius: 17px !important;
+  }
+  .blogh1{
+      padding-bottom: 14px;
+      font-size: 1.5em;
+  }
+  .parentclass{
+      padding-top:10px;
+  }
+  .accordion_button,.accordion_button2{
+      padding: 14px 10%;
+      font-size: 16px;
+  }
+  .accordion-body{
+  
+      font-size: 14px;
+  }
+  .body_second {
+   background-color: #000;
+  }
+  
+  }
